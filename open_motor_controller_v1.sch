@@ -1,0 +1,136 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:somekicadlib
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TM4C1230H6PM U?
+U 1 1 59262353
+P 5600 3400
+F 0 "U?" H 4350 5300 50  0000 L CNN
+F 1 "TM4C1230H6PM" H 6250 5300 50  0000 L CNN
+F 2 "LQFP-64" H 5600 4900 50  0001 C CIN
+F 3 "" H 5600 3400 50  0001 C CNN
+	1    5600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP2551-I/SN U?
+U 1 1 592623E2
+P 2000 1750
+F 0 "U?" H 1600 2100 50  0000 L CNN
+F 1 "MCP2551-I/SN" H 2100 2100 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2000 1250 50  0001 C CIN
+F 3 "" H 2000 1750 50  0001 C CNN
+	1    2000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ACPL-P343 U?
+U 1 1 592625B0
+P 9350 1600
+F 0 "U?" H 9350 2100 50  0000 C CNN
+F 1 "ACPL-P343" H 9350 2000 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-6_4.58x6.81mm_Pitch1.27mm" H 9350 1200 50  0001 C CIN
+F 3 "" H 9260 1605 50  0001 L CNN
+	1    9350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ACPL-P343 U?
+U 1 1 59262608
+P 9350 2650
+F 0 "U?" H 9350 3150 50  0000 C CNN
+F 1 "ACPL-P343" H 9350 3050 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-6_4.58x6.81mm_Pitch1.27mm" H 9350 2250 50  0001 C CIN
+F 3 "" H 9260 2655 50  0001 L CNN
+	1    9350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ACPL-P343 U?
+U 1 1 59262652
+P 9350 3600
+F 0 "U?" H 9350 4100 50  0000 C CNN
+F 1 "ACPL-P343" H 9350 4000 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-6_4.58x6.81mm_Pitch1.27mm" H 9350 3200 50  0001 C CIN
+F 3 "" H 9260 3605 50  0001 L CNN
+	1    9350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BS107 Q?
+U 1 1 592626DA
+P 10100 1550
+F 0 "Q?" H 10300 1625 50  0000 L CNN
+F 1 "BS107" H 10300 1550 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 10300 1475 50  0001 L CIN
+F 3 "" H 10100 1550 50  0001 L CNN
+	1    10100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BS107 Q?
+U 1 1 59262797
+P 10050 2600
+F 0 "Q?" H 10250 2675 50  0000 L CNN
+F 1 "BS107" H 10250 2600 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 10250 2525 50  0001 L CIN
+F 3 "" H 10050 2600 50  0001 L CNN
+	1    10050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BS107 Q?
+U 1 1 592627DA
+P 10100 3550
+F 0 "Q?" H 10300 3625 50  0000 L CNN
+F 1 "BS107" H 10300 3550 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 10300 3475 50  0001 L CIN
+F 3 "" H 10100 3550 50  0001 L CNN
+	1    10100 3550
+	1    0    0    -1  
+$EndComp
+Text Notes 3100 5400 0    60   ~ 0
+Drivers: ir2183s\nmosfets: 107n20n\ncan transceiver: mcp2551\neeprom: 95080wp\n
+$EndSCHEMATC
